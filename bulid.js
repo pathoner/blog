@@ -7,5 +7,5 @@ fs.readdir("./markdown", function(error, files){
     var template = fs.readFileSync("./template.html").toString()
     var result = template.replace("%content%", markdown)
     fs.writeFileSync(files[i]+"html", result)
-    }
+    }// ad 
 })
