@@ -15,8 +15,7 @@
 </head>
 <body>
   <div id="content">
-    ## 这是我的第三篇博客
-你好
+    ## 今天学习了博客的制作 但是感觉还是很麻烦
   </div>
   <script>
     var content = document.getElementById('content')
